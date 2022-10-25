@@ -27,7 +27,7 @@ img{
     transition: ;
 }
 img:hover{
-    opacity: 12%;
+    opacity: 50%;
     transition: 2s;
     
 }
@@ -58,6 +58,6 @@ p{
     
 }
 .maindiv:hover .text{
-    background-color: rgb(41, 41, 173);
+    background-color: rgb(30, 30, 117);
     background-
 }
