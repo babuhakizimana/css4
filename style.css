@@ -1,8 +1,12 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Playfair+Display:ital,wght@1,700&display=swap');
 .maindiv{
     position: relative;
 
+}
+
+.maindiv{
+    display: inline-block;
 }
 
    
@@ -15,5 +19,45 @@
     position: absolute;
 
     top: 90%;
-    left: 51% ;
+    left: 81% ;
+}
+img{
+    display: inline-block;
+    opacity: 100%;
+    transition: ;
+}
+img:hover{
+    opacity: 12%;
+    transition: 2s;
+    
+}
+h2{
+    font-size: 40px;
+    position: absolute;
+    bottom: 400px;
+    left: 100px;
+    font-family: 'Black And White Picture', sans-serif;
+    font-family: 'Playfair Display', serif;
+    top: 30px;
+    opacity: 0;
+
+}
+span{
+    background-color: aqua;
+    font-size: 20px;
+}
+p{
+    position: absolute;
+    left: 30%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.maindiv:hover h2{
+    opacity: 1;
+    transition: 2s;
+    
+}
+.maindiv:hover .text{
+    background-color: rgb(41, 41, 173);
+    background-
 }
