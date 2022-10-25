@@ -1,0 +1,19 @@
+
+
+.maindiv{
+    position: relative;
+
+}
+
+   
+.text{
+    background-color: black;
+    font-weight: 700;
+    font-size: large;
+    color: white;
+    display: inline-block;
+    position: absolute;
+
+    top: 90%;
+    left: 51% ;
+}
